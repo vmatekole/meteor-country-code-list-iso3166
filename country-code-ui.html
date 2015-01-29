@@ -1,0 +1,10 @@
+<template name="countryCodeSelect">
+  <select {{props}}>
+    {{#each highlightedCountryList}}
+      <option value="{{_id}}" {{props}}>{{name}}</option>
+    {{/each}}
+    {{#each remainingCountries}}
+      <option value="{{_id}}" {{props}}>{{name}}</option>
+    {{/each}}
+  </select>
+</template>
