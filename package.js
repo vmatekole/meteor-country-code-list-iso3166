@@ -1,5 +1,5 @@
 Package.describe({
-  name: '3stack:country-codes',
+  name: 'vmatekole:country-codes',
   version: '0.1.1',
   summary: 'ISO 3166-1 alpha-2 country code list. Has lookup & select ui.',
   git: 'https://github.com/3stack-software/meteor-country-code-list-iso3166',
