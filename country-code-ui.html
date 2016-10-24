@@ -1,5 +1,5 @@
 <template name="countryCodeSelect">
-  <select {{props}}>
+  <select class="txt_fld1 form-control countrylist" {{props}}>
     <option selected="selected" value="unselected"></option>
     {{#each highlightedCountryList}}
       <option value="{{_id}}" {{props}}>{{name}}</option>
